@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on natsukodachi</title>
+    <link>https://natsukodachi.jp/blog/</link>
+    <description>Recent content in Blog on natsukodachi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright © 2024, natsukodachi.</copyright>
+    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://natsukodachi.jp/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>個人サイトを作った</title>
+      <link>https://natsukodachi.jp/blog/first-post/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://natsukodachi.jp/blog/first-post/</guid>
+      <description>自分のホームページが欲しくなった。 身の回りの出来事を書き残したり、記録したり。 ポートフォリオサイトも作ってみたかった。 なので作ってみました。</description>
+    </item>
+    
+  </channel>
+</rss>
