@@ -1,4 +1,4 @@
-[submodule "public"]
-	path = public
+[submodule "docs"]
+	path = docs
 	url = https://github.com/natsukodachi/natsukodachi.github.io.git
 	branch = main
