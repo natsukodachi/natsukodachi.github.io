@@ -6,8 +6,17 @@
     <description>Recent content on natsukodachi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>Copyright © 2024, natsukodachi.</copyright>
-    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://natsukodachi.jp/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>©2024 natsukodachi. All Rights Reserved.</copyright>
+    <lastBuildDate>Tue, 23 Apr 2024 15:10:21 +0900</lastBuildDate><atom:link href="https://natsukodachi.jp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>働いて一年がたった</title>
+      <link>https://natsukodachi.jp/blog/customize-hugo-url/</link>
+      <pubDate>Tue, 23 Apr 2024 15:10:21 +0900</pubDate>
+      
+      <guid>https://natsukodachi.jp/blog/customize-hugo-url/</guid>
+      <description>うーん疲れた。2023年度会計が閉まった。社会人になって一年が経過したので、この一年で何が変わったのか記録を残す。 今の職務内容 届いた書類をシ</description>
+    </item>
+    
     <item>
       <title>個人サイトを作った</title>
       <link>https://natsukodachi.jp/blog/first-post/</link>
