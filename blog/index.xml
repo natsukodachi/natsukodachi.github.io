@@ -4,36 +4,38 @@
     <title>Blog on natsukodachi</title>
     <link>https://natsukodachi.jp/blog/</link>
     <description>Recent content in Blog on natsukodachi</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja-jp</language>
-    <copyright>©2024 natsukodachi. All Rights Reserved.</copyright>
-    <lastBuildDate>Fri, 21 Jun 2024 16:09:41 +0900</lastBuildDate><atom:link href="https://natsukodachi.jp/blog/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>©2024-2025 natsukodachi. All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 18 Jun 2025 20:38:58 +0900</lastBuildDate>
+    <atom:link href="https://natsukodachi.jp/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>仕事を辞めて専業大学院生になった</title>
+      <link>https://natsukodachi.jp/blog/2025/06/18/quitwork-and-go2graduateschool/</link>
+      <pubDate>Wed, 18 Jun 2025 20:38:58 +0900</pubDate>
+      <guid>https://natsukodachi.jp/blog/2025/06/18/quitwork-and-go2graduateschool/</guid>
+      <description>&lt;p&gt;前回の記事から一年経ってしまった。もっとこまめに書くべきだった。&lt;/p&gt;&#xA;&lt;p&gt;あれから準公務員（大学職員）の仕事を辞めて、大学院生になった。いわゆる出戻り大学院生である。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>新卒2年目で社会人大学院生になった</title>
       <link>https://natsukodachi.jp/blog/2024/06/21/aiittanibank/</link>
       <pubDate>Fri, 21 Jun 2024 16:09:41 +0900</pubDate>
-      
       <guid>https://natsukodachi.jp/blog/2024/06/21/aiittanibank/</guid>
-      <description>正確には科目履修生ですが。2024年度から東京都立産業技術大学院大学（AIIT）の単位バンク生になり、大学院の授業を履修している。ちょうど1</description>
+      <description>&lt;p&gt;正確には科目履修生ですが。2024年度から東京都立産業技術大学院大学（AIIT）の単位バンク生になり、大学院の授業を履修している。ちょうど1Q（筑波でいう春AB）が終了したので振り返りたい。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>働いて一年がたった</title>
       <link>https://natsukodachi.jp/blog/2024/04/23/hataite-1nen-tatta/</link>
       <pubDate>Tue, 23 Apr 2024 15:10:21 +0900</pubDate>
-      
       <guid>https://natsukodachi.jp/blog/2024/04/23/hataite-1nen-tatta/</guid>
-      <description>うーん疲れた。2023年度会計が閉まった。社会人になって一年が経過したので、この一年で何が変わったのか記録を残す。 今の職務内容 届いた書類をシ</description>
+      <description>&lt;p&gt;うーん疲れた。2023年度会計が閉まった。社会人になって一年が経過したので、この一年で何が変わったのか記録を残す。&lt;/p&gt;&#xA;&lt;h2 id=&#34;今の職務内容&#34;&gt;今の職務内容&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;届いた書類をシステムに打ち込む。&lt;/li&gt;&#xA;&lt;li&gt;そうすると会計伝票が印刷されるから、一緒にホッチキスで留める。&lt;/li&gt;&#xA;&lt;li&gt;箱にいれて棚に置く。そうすると役職持ちのおっちゃんやお姉様方がチェックをして判子を押してくれる。内容に誤りがあったら赤入れされて返ってくるので、修正して再提出する。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;これを毎日6時間くらいやって、あとは関係部局の問い合わせに答えたり、書類を整理したりする。20年後には機械やAIが全部やってくれそう。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>個人サイトを作った</title>
       <link>https://natsukodachi.jp/blog/2024/01/25/first-post/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://natsukodachi.jp/blog/2024/01/25/first-post/</guid>
-      <description>自分のホームページが欲しくなった。 身の回りの出来事を書き残したり、記録したり。 ポートフォリオサイトも作ってみたかった。 なので作ってみました。</description>
+      <description>&lt;p&gt;自分のホームページが欲しくなった。&#xA;身の回りの出来事を書き残したり、記録したり。&#xA;ポートフォリオサイトも作ってみたかった。&lt;/p&gt;&#xA;&lt;p&gt;なので作ってみました。&#xA;独自ドメインをとり、Hugoでコンテンツを作成し、Github Pagesでホスティングしています。&#xA;こんなに簡単ならもっと早くやればよかったな。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
