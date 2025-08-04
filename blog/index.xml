@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <copyright>©2024-2025 natsukodachi. All Rights Reserved.</copyright>
-    <lastBuildDate>Wed, 18 Jun 2025 20:38:58 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jul 2025 09:50:23 +0900</lastBuildDate>
     <atom:link href="https://natsukodachi.jp/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoメモ</title>
+      <link>https://natsukodachi.jp/blog/2025/07/15/quitwork-and-go2graduateschool/</link>
+      <pubDate>Tue, 15 Jul 2025 09:50:23 +0900</pubDate>
+      <guid>https://natsukodachi.jp/blog/2025/07/15/quitwork-and-go2graduateschool/</guid>
+      <description>&lt;p&gt;ubuntuを（ぶっ壊して）新しく入れなおす度にHugoのインストールのやり方が分からなくなるので残しておく。別PCで再クローンするときにも使えると思う。それと全然ブログ書かないせいでデプロイとかgit submoduleとか忘れちゃうから……。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>仕事を辞めて専業大学院生になった</title>
       <link>https://natsukodachi.jp/blog/2025/06/18/quitwork-and-go2graduateschool/</link>
