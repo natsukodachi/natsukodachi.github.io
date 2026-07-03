@@ -12,30 +12,30 @@
 
 
 <meta property="og:url" content="https://natsukodachi.jp/blog/2024/06/21/aiittanibank/">
-  <meta property="og:site_name" content="natsukodachi">
-  <meta property="og:title" content="新卒2年目で社会人大学院生になった">
-  <meta property="og:description" content="正確には科目履修生ですが。2024年度から東京都立産業技術大学院大学（AIIT）の単位バンク生になり、大学院の授業を履修している。ちょうど1Q（筑波でいう春AB）が終了したので振り返りたい。">
-  <meta property="og:locale" content="ja_jp">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2024-06-21T16:09:41+09:00">
-    <meta property="article:modified_time" content="2024-06-21T16:09:41+09:00">
+	<meta property="og:site_name" content="natsukodachi">
+	<meta property="og:title" content="新卒2年目で社会人大学院生になった">
+	<meta property="og:description" content="正確には科目履修生ですが。2024年度から東京都立産業技術大学院大学（AIIT）の単位バンク生になり、大学院の授業を履修している。ちょうど1Q（筑波でいう春AB）が終了したので振り返りたい。">
+	<meta property="og:locale" content="ja_jp">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2024-06-21T16:09:41+09:00">
+		<meta property="article:modified_time" content="2024-06-21T16:09:41+09:00">
 
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="新卒2年目で社会人大学院生になった">
-  <meta name="twitter:description" content="正確には科目履修生ですが。2024年度から東京都立産業技術大学院大学（AIIT）の単位バンク生になり、大学院の授業を履修している。ちょうど1Q（筑波でいう春AB）が終了したので振り返りたい。">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="新卒2年目で社会人大学院生になった">
+	<meta name="twitter:description" content="正確には科目履修生ですが。2024年度から東京都立産業技術大学院大学（AIIT）の単位バンク生になり、大学院の授業を履修している。ちょうど1Q（筑波でいう春AB）が終了したので振り返りたい。">
 
 
 
 
-  <meta itemprop="name" content="新卒2年目で社会人大学院生になった">
-  <meta itemprop="description" content="正確には科目履修生ですが。2024年度から東京都立産業技術大学院大学（AIIT）の単位バンク生になり、大学院の授業を履修している。ちょうど1Q（筑波でいう春AB）が終了したので振り返りたい。">
-  <meta itemprop="datePublished" content="2024-06-21T16:09:41+09:00">
-  <meta itemprop="dateModified" content="2024-06-21T16:09:41+09:00">
-  <meta itemprop="wordCount" content="1959">
+	<meta itemprop="name" content="新卒2年目で社会人大学院生になった">
+	<meta itemprop="description" content="正確には科目履修生ですが。2024年度から東京都立産業技術大学院大学（AIIT）の単位バンク生になり、大学院の授業を履修している。ちょうど1Q（筑波でいう春AB）が終了したので振り返りたい。">
+	<meta itemprop="datePublished" content="2024-06-21T16:09:41+09:00">
+	<meta itemprop="dateModified" content="2024-06-21T16:09:41+09:00">
+	<meta itemprop="wordCount" content="1959">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
@@ -49,8 +49,6 @@
     --text-color: #444;
     --link-color: #3273dc;
     --visited-color: #8b6fcb;
-    --code-background-color: #f2f2f2;
-    --code-color: #222;
     --blockquote-color: #222;
   }
 
@@ -61,8 +59,6 @@
       --text-color: #ddd;
       --link-color: #8cc2dd;
       --visited-color: #8b6fcb;
-      --code-background-color: #000;
-      --code-color: #ddd;
       --blockquote-color: #ccc;
     }
   }
@@ -141,14 +137,12 @@
   code {
     font-family: monospace;
     padding: 2px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
     border-radius: 3px;
   }
 
   blockquote {
     border-left: 1px solid #999;
-    color: var(--code-color);
+    color: var(--blockquote-color);
     padding-left: 20px;
     font-style: italic;
   }
@@ -172,13 +166,16 @@
 
   .highlight,
   .code {
-    padding: 1px 15px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
     border-radius: 3px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     overflow-x: auto;
+  }
+
+  .highlight pre,
+  .code pre {
+    min-width: 100%;
+    width: max-content;
   }
 
    
@@ -200,7 +197,23 @@
   }
 
 </style>
-
+<style>
+   
+  @media (prefers-color-scheme: dark) {
+    .highlight pre,
+    .code pre {
+      background-color: #282c34 !important;
+    }
+    .highlight pre,
+    .highlight code,
+    .highlight pre span,
+    .code pre,
+    .code code,
+    .code pre span {
+      color: #abb2bf !important;
+    }
+  }
+</style>
 </head>
 
 <body>
@@ -267,13 +280,16 @@
 <p>なんかAIITの感想みたいになってしまった。一科目しか履修してないけどすごくいい大学だったので、来年入学するだろうなーという予感はある。でも、研究がしたいなーって気持ちもあって、そうなるとAIITは自分には合わないだろうなとも思う。どちらにせよ、アカデミアに帰るだろう。後悔しないようにね、と研究室の先輩から言われてしまったので、やりたいこと全部やるつもりでやる。</p>
 
 </content>
+
+
+
 <p>
   
 </p>
 
   </main>
   <footer>
-  <p>©2024-2025 natsukodachi. All Rights Reserved.
+  <p>©2024-2026 natsukodachi. All Rights Reserved.
 
 
 Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a><p>

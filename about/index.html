@@ -27,24 +27,24 @@ Qiita
 
 
 <meta property="og:url" content="https://natsukodachi.jp/about/">
-  <meta property="og:site_name" content="natsukodachi">
-  <meta property="og:title" content="About">
-  <meta property="og:description" content="Personal details Hi, I’m Natsuki Endo. Nickname: Natsukodachi
+	<meta property="og:site_name" content="natsukodachi">
+	<meta property="og:title" content="About">
+	<meta property="og:description" content="Personal details Hi, I’m Natsuki Endo. Nickname: Natsukodachi
 Interests: Fortran, C&#43;&#43;, vim
 Likes: 雪, 人形劇
 Work experience 国立大学法人職員 財務
 Education University of Tsukuba / 筑波大学生命環境学群地球学類
 Morioka third high school / 盛岡第三高等学校
 Links Github X(Twitter) Qiita">
-  <meta property="og:locale" content="ja_jp">
-  <meta property="og:type" content="article">
+	<meta property="og:locale" content="ja_jp">
+	<meta property="og:type" content="article">
 
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="About">
-  <meta name="twitter:description" content="Personal details Hi, I’m Natsuki Endo. Nickname: Natsukodachi
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="About">
+	<meta name="twitter:description" content="Personal details Hi, I’m Natsuki Endo. Nickname: Natsukodachi
 Interests: Fortran, C&#43;&#43;, vim
 Likes: 雪, 人形劇
 Work experience 国立大学法人職員 財務
@@ -55,15 +55,15 @@ Links Github X(Twitter) Qiita">
 
 
 
-  <meta itemprop="name" content="About">
-  <meta itemprop="description" content="Personal details Hi, I’m Natsuki Endo. Nickname: Natsukodachi
+	<meta itemprop="name" content="About">
+	<meta itemprop="description" content="Personal details Hi, I’m Natsuki Endo. Nickname: Natsukodachi
 Interests: Fortran, C&#43;&#43;, vim
 Likes: 雪, 人形劇
 Work experience 国立大学法人職員 財務
 Education University of Tsukuba / 筑波大学生命環境学群地球学類
 Morioka third high school / 盛岡第三高等学校
 Links Github X(Twitter) Qiita">
-  <meta itemprop="wordCount" content="66">
+	<meta itemprop="wordCount" content="66">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
@@ -77,8 +77,6 @@ Links Github X(Twitter) Qiita">
     --text-color: #444;
     --link-color: #3273dc;
     --visited-color: #8b6fcb;
-    --code-background-color: #f2f2f2;
-    --code-color: #222;
     --blockquote-color: #222;
   }
 
@@ -89,8 +87,6 @@ Links Github X(Twitter) Qiita">
       --text-color: #ddd;
       --link-color: #8cc2dd;
       --visited-color: #8b6fcb;
-      --code-background-color: #000;
-      --code-color: #ddd;
       --blockquote-color: #ccc;
     }
   }
@@ -169,14 +165,12 @@ Links Github X(Twitter) Qiita">
   code {
     font-family: monospace;
     padding: 2px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
     border-radius: 3px;
   }
 
   blockquote {
     border-left: 1px solid #999;
-    color: var(--code-color);
+    color: var(--blockquote-color);
     padding-left: 20px;
     font-style: italic;
   }
@@ -200,13 +194,16 @@ Links Github X(Twitter) Qiita">
 
   .highlight,
   .code {
-    padding: 1px 15px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
     border-radius: 3px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     overflow-x: auto;
+  }
+
+  .highlight pre,
+  .code pre {
+    min-width: 100%;
+    width: max-content;
   }
 
    
@@ -228,7 +225,23 @@ Links Github X(Twitter) Qiita">
   }
 
 </style>
-
+<style>
+   
+  @media (prefers-color-scheme: dark) {
+    .highlight pre,
+    .code pre {
+      background-color: #282c34 !important;
+    }
+    .highlight pre,
+    .highlight code,
+    .highlight pre span,
+    .code pre,
+    .code code,
+    .code pre span {
+      color: #abb2bf !important;
+    }
+  }
+</style>
 </head>
 
 <body>
@@ -262,18 +275,21 @@ Links Github X(Twitter) Qiita">
 <h2 id="links">Links</h2>
 <ul>
 <li><a href="https://github.com/natsukodachi">Github</a></li>
-<li><a href="https://twitter.com/shionatsu2704">X(Twitter)</a></li>
+<li><a href="https://twitter.com/shionatsu2740">X(Twitter)</a></li>
 <li><a href="https://qiita.com/natsukodachi">Qiita</a></li>
 </ul>
 
 </content>
+
+
+
 <p>
   
 </p>
 
   </main>
   <footer>
-  <p>©2024-2025 natsukodachi. All Rights Reserved.
+  <p>©2024-2026 natsukodachi. All Rights Reserved.
 
 
 Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a><p>

@@ -8,28 +8,28 @@
 <title>404</title>
 <meta name="title" content="404 Page not found" />
 <meta name="description" content="Hugo &#43; Bear = :heart:" />
-<meta name="keywords" content="hugo,お仕事,大学院,雑多," />
+<meta name="keywords" content="hugo,お仕事,大学院,日記,雑多," />
 
 
 <meta property="og:url" content="https://natsukodachi.jp/404.html">
-  <meta property="og:site_name" content="natsukodachi">
-  <meta property="og:title" content="404 Page not found">
-  <meta property="og:description" content="Hugo &#43; Bear = :heart:">
-  <meta property="og:locale" content="ja_jp">
-  <meta property="og:type" content="website">
+	<meta property="og:site_name" content="natsukodachi">
+	<meta property="og:title" content="404 Page not found">
+	<meta property="og:description" content="Hugo &#43; Bear = :heart:">
+	<meta property="og:locale" content="ja_jp">
+	<meta property="og:type" content="website">
 
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="404 Page not found">
-  <meta name="twitter:description" content="Hugo &#43; Bear = :heart:">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="404 Page not found">
+	<meta name="twitter:description" content="Hugo &#43; Bear = :heart:">
 
 
 
 
-  <meta itemprop="name" content="404 Page not found">
-  <meta itemprop="description" content="Hugo &#43; Bear = :heart:">
+	<meta itemprop="name" content="404 Page not found">
+	<meta itemprop="description" content="Hugo &#43; Bear = :heart:">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
@@ -43,8 +43,6 @@
     --text-color: #444;
     --link-color: #3273dc;
     --visited-color: #8b6fcb;
-    --code-background-color: #f2f2f2;
-    --code-color: #222;
     --blockquote-color: #222;
   }
 
@@ -55,8 +53,6 @@
       --text-color: #ddd;
       --link-color: #8cc2dd;
       --visited-color: #8b6fcb;
-      --code-background-color: #000;
-      --code-color: #ddd;
       --blockquote-color: #ccc;
     }
   }
@@ -135,14 +131,12 @@
   code {
     font-family: monospace;
     padding: 2px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
     border-radius: 3px;
   }
 
   blockquote {
     border-left: 1px solid #999;
-    color: var(--code-color);
+    color: var(--blockquote-color);
     padding-left: 20px;
     font-style: italic;
   }
@@ -166,13 +160,16 @@
 
   .highlight,
   .code {
-    padding: 1px 15px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
     border-radius: 3px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     overflow-x: auto;
+  }
+
+  .highlight pre,
+  .code pre {
+    min-width: 100%;
+    width: max-content;
   }
 
    
@@ -194,7 +191,23 @@
   }
 
 </style>
-
+<style>
+   
+  @media (prefers-color-scheme: dark) {
+    .highlight pre,
+    .code pre {
+      background-color: #282c34 !important;
+    }
+    .highlight pre,
+    .highlight code,
+    .highlight pre span,
+    .code pre,
+    .code code,
+    .code pre span {
+      color: #abb2bf !important;
+    }
+  }
+</style>
 </head>
 
 <body>
@@ -213,15 +226,12 @@
 </nav>
 </header>
   <main>
-  
 <h1>404</h1>
 <h2>ʕノ•ᴥ•ʔノ ︵ ┻━┻</h2>
 
-
-
   </main>
   <footer>
-  <p>©2024-2025 natsukodachi. All Rights Reserved.
+  <p>©2024-2026 natsukodachi. All Rights Reserved.
 
 
 Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a><p>
